@@ -33,22 +33,22 @@ document.querySelector(".speed").innerHTML= data.wind.speed+" km/h";
 document.querySelector(".adata").style.display="flex";
 
 if(data.weather[0].main == "Clouds"){
-        icon.src="/wether chack/img/clouds.png"
+        icon.src="/img/clouds.png"
 }
 else if(data.weather[0].main=="clear"){
-        icon.src="/wether chack/img/clear.png"
+        icon.src="/img/clear.png"
 }
 else if(data.weather[0].main=="drizzle"){
-        icon.src="/wether chack/img/drizzle.png"
+        icon.src="/img/drizzle.png"
 }
 else if(data.weather[0].main=="mist"){
-        icon.src="/wether chack/img/mist.png"
+        icon.src="/img/mist.png"
 }
 else if(data.weather[0].main=="rain"){
-        icon.src="/wether chack/img/rain.png"
+        icon.src="/img/rain.png"
 }
 else if(data.weather[0].main=="snow"){
-        icon.src="/wether chack/img/snow.png"
+        icon.src="/img/snow.png"
 }
 
 
