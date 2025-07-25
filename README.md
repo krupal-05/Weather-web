@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Live Demo
-Check out the hosted version: [Weather Web](https://github.com/krupal-05/Weather-web.git)
+Check out the hosted version: [Weather Web](https://krupal-05.github.io/Weather-web/)
 
 
 ---
