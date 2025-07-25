@@ -33,7 +33,7 @@ document.querySelector(".speed").innerHTML= data.wind.speed+" km/h";
 document.querySelector(".adata").style.display="flex";
 
 if(data.weather[0].main == "Clouds"){
-        icon.src="/img/clouds.png"
+        icon.src="/Weather-web//img/clouds.png"
 }
 else if(data.weather[0].main=="clear"){
         icon.src="/img/clear.png"
