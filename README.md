@@ -5,9 +5,9 @@
 ---
 
 ## 🔗 Live Demo
-Check out the hosted version: [Weather Web](https://your-username.github.io/weather-web)
+Check out the hosted version: [Weather Web](https://github.com/krupal-05/Weather-web.git)
 
-> Replace `your-username` with your GitHub username.
+> Replace `krupal-05` with your GitHub username.
 
 ---
 
@@ -33,6 +33,6 @@ Check out the hosted version: [Weather Web](https://your-username.github.io/weat
 ## 🚀 How to Use Locally
 
 ```bash
-git clone https://github.com/your-username/weather-web.git
+git clone https://github.com/krupal-05/Weather-web.git
 cd weather-web
 open index.html
