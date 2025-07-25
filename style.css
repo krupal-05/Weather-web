@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #353352;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:23rem;
+    height:auto;
+    border : 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    border: 1px solid black;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 10px;
+    padding: 15px;
+
+
+}
+.search{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.search img{
+   height: 30px;
+   width : 30px;
+
+}
+.search button{
+   height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.search #searchbox{
+   width: 80%;
+   height: 50px;
+   border-radius: 30px;
+   padding-left: 30px;
+   font-weight: bolder;
+}
+.data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    justify-content:space-between; 
+    font-weight: bold;
+    font-size: x-large;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.data img{
+    width : 150px; 
+    height: 150px;
+}
+.hv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    justify-content:space-between; 
+
+}
+
+.hv img{
+    height: 40px;
+    width :40px;
+}
+.hum ,.wind{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    gap: 10px;  
+    margin: 5px; 
+    color: #fff;
+
+}
+.adata{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+
+}
