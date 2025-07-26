@@ -4,7 +4,7 @@ const apiurl ="https:/api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchbox = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
 
-/ search box 
+// search box 
 searchbtn.addEventListener("click", () => {
     const city = searchbox.value;  
     if (city.length == 0) {
