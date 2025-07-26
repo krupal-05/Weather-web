@@ -36,19 +36,19 @@ if(data.weather[0].main == "Clouds"){
         icon.src="/Weather-web//img/clouds.png"
 }
 else if(data.weather[0].main=="clear"){
-        icon.src="/img/clear.png"
+        icon.src="/Weather-web//img/clear.png"
 }
 else if(data.weather[0].main=="drizzle"){
-        icon.src="/img/drizzle.png"
+        icon.src="/Weather-web//img/drizzle.png"
 }
 else if(data.weather[0].main=="mist"){
-        icon.src="/img/mist.png"
+        icon.src="/Weather-web//img/mist.png"
 }
 else if(data.weather[0].main=="rain"){
-        icon.src="/img/rain.png"
+        icon.src="/Weather-web//img/rain.png"
 }
 else if(data.weather[0].main=="snow"){
-        icon.src="/img/snow.png"
+        icon.src="/Weather-web//img/snow.png"
 }
 
 
