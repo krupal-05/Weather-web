@@ -24,6 +24,12 @@ async function chackweather(city) {
     const responce = await fetch(apiurl + city +`&appid=${apid}`);
     var data = await responce.json();
     console.log(data)
+    if (data.cod == "404") {
+        // If city is not found, show an alert and hide the weather info
+        alert("City not found. Please check the spelling.");
+        document.querySelector(".adata").style.display = "none";
+    }
+    else{
 
 document.querySelector(".city").innerHTML=data.name;
 document.querySelector(".temp").innerHTML=data.main.temp+" °C";
@@ -50,5 +56,5 @@ else if(data.weather[0].main=="snow"){
         icon.src="/Weather-web/img/snow.png"
 }
 
-
+}
 }
